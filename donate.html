@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <!-- remix icons -->
+    <link
+      <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!-- custom css  -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Kind Heart Charity - Donation</title>
+  </head>
+  <body>
+    <!-- top header section -->
+    <section id="top-header">
+      <div class="location">
+        <p class="address">
+          <i class="bi bi-geo-alt"></i>B-17 Islamabad, Pakistan
+        </p>
+        <p>
+          <i class="bi bi-envelope"></i
+          ><span class="mail">info@company.com</span>
+        </p>
+      </div>
+      <div class="socials">
+        <i class="bi bi-twitter"></i>
+        <i class="bi bi-facebook"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-youtube"></i>
+        <i class="bi bi-whatsapp"></i>
+      </div>
+    </section>
+    <!-- top header section end-->
+    <!-- navbar -->
+    <section id="navbar">
+      <div class="logo">
+        <img src="./images/logo.png" alt="" />
+        <div class="logo-text">
+          <h4>kind heart charity</h4>
+          <p>non-profit organization</p>
+        </div>
+      </div>
+      <ul class="menu-list">
+        <li><a href="index.html">home</a></li>
+        <li><a href="#">about</a></li>
+        <li><a href="#">causes</a></li>
+        <li><a href="#">volunteer</a></li>
+        <li id="news-menu" class="active">
+          <a href="#">news<i class="ri-arrow-down-s-line"></i></a>
+          <!-- submenu box -->
+          <div class="box">
+            <a href="news-listing.html">News Listing</a>
+            <a href="news-detail.html">News Detail</a>
+          </div>
+          <!-- submenu box end -->
+        </li>
+        <li><a href="#">contact</a></li>
+        <li class="btn"><a href="donate.html">donate</a></li>
+      </ul>
+    </section>
+    <!-- navbar end -->
+    <!-- main donate section -->
+    <section id="donate">
+      <div class="donate-container">
+        <h3>Make a donation</h3>
+        <h5>Donate Frequency</h5>
+        <div class="frequency">
+          <div class="one-time duration active">One Time</div>
+          <div class="monthly duration">Monthly</div>
+        </div>
+        <div class="amount">
+          <h5>Select an amount</h5>
+          <div class="amount-container">
+            <div class="row-1" style="margin-bottom: 20px">
+              <div class="dollars">$10</div>
+              <div class="dollars">$15</div>
+              <div class="dollars">$20</div>
+              <div class="dollars">$30</div>
+            </div>
+            <div class="row-2">
+              <div class="dollars">$45</div>
+              <div class="dollars">$50</div>
+              <div class="dollars-custom">
+                <span>$</span><input type="text" placeholder="Custom Amount" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="personal-info">
+          <h5>Personal Info</h5>
+          <div class="p-info">
+            <input type="text" placeholder="Jack Doe" />
+            <input type="email" placeholder="Jackdoe@gmail.com" />
+          </div>
+        </div>
+        <div class="payment">
+          <h5>Choose Payment</h5>
+          <div class="labels">
+            <label for="card" class="radio-container">
+              <i class="bi bi-credit-card"></i>Debit or Credit card
+              <input type="radio" id="card" name="payment" />
+              <span class="circle"></span>
+            </label>
+            <br />
+            <br />
+            <label for="paypal" class="radio-container">
+              <i class="bi bi-paypal"></i>Paypal
+              <input type="radio" id="paypal" name="payment" />
+              <span class="circle"></span>
+            </label>
+          </div>
+        </div>
+        <div class="submit-btn">Submit Donation</div>
+      </div>
+    </section>
+    <!-- main donate section end -->
+    <!-- footer top -->
+    <footer>
+      <section id="footer-top" class="top">
+        <div class="logo">
+          <img src="./images/logo.png" alt="" srcset="" />
+        </div>
+        <div class="quick-links">
+          <h5>quick links</h5>
+          <ul>
+            <li><a href="#">Our Story</a></li>
+            <li><a href="">Become a volunteer</a></li>
+            <li><a href="">Newsroom</a></li>
+            <li><a href="">Partner with us</a></li>
+            <li><a href="">Causes</a></li>
+          </ul>
+        </div>
+        <div class="contact-info">
+          <h5>contact information</h5>
+          <i class="bi bi-telephone"></i>
+          <a href="#">120-240-9600</a><br />
+          <i class="bi bi-envelope"></i><a href="#">donate@charity.org</a><br />
+          <p>
+            <i class="bi bi-geo-alt"></i>Akershusstranda 20, 0150 Oslo, Norway
+          </p>
+          <a href="#" class="direction">Get Direction</a>
+        </div>
+      </section>
+    </footer>
+    <!-- footer top end-->
+    <!-- footer bottom -->
+    <footer id="footer-bottom">
+      <p>
+        Copyright &copy; 2022 <a href="#">Kind Heart</a> Charity Org. Design:<a
+          href="#"
+          >Hassan</a
+        >
+      </p>
+      <ul>
+        <li><i class="bi bi-twitter"></i></li>
+        <li><i class="bi bi-facebook"></i></li>
+        <li><i class="bi bi-instagram"></i></li>
+        <li><i class="bi bi-linkedin"></i></li>
+        <li><i class="bi bi-youtube"></i></li>
+      </ul>
+    </footer>
+    <!-- footer bottom -->
+    <!-- javaScript -->
+    <script src="./js/donation.js"></script>
+    <script src="./js/fixed-menu.js"></script>
+  </body>
+</html>
